@@ -1,0 +1,171 @@
+/*Common CSS Start*/
+body{
+	margin: 0;
+	padding: 0;
+}
+/*Common CSS end*/
+
+/*Container CSS Start*/
+.container{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}	
+.container-1{
+	width: 50%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+/*Container CSS End*/
+
+/*Section Margin & Padding CSS Start*/
+.banner-section,
+.success-section,
+.feature-section{
+	padding: 60px 0;
+}
+/*Section Margin & Padding CSS End*/
+
+/*Header CSS Start*/
+.header{
+	border-bottom: 2px solid #00000014;
+	padding: 10px 0;
+}
+.logo{
+	width: 10%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+
+.menu{
+	width: 50%;
+	float: right;
+	text-align: right;
+}
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+}
+.menu ul li a{
+	font-size: 16px;
+	font-family: sans-serif;
+	margin: 0 30px 0 0;
+	text-decoration: none;
+}
+.menu ul li:last-child a{
+	margin: 0 0;
+}
+/*Menu Item Hover*/
+.menu ul li a:hover{
+	color: #008aff;
+}
+
+/*Header CSS End*/
+
+/*Banner CSS Start*/
+.b-content{
+	font-family: sans-serif;
+	text-align: center;
+}
+.b-content h1{
+	font-size: 45px;
+	margin: 0;
+}
+.b-content h2{
+	font-size: 45px;
+	margin: 10px;
+	color: #008aff;
+}
+.b-content p{
+	margin: 0 0 10 0;
+	font-size: 16px;
+	line-height: 22px;
+}
+.b-img{}
+.b-img img{
+	width: 100%;
+}
+
+/*Banner CSS End*/
+
+/*Success CSS Start*/
+.s-left{
+	width: 46%;
+	float: left;
+	text-align: right;
+	font-family: sans-serif;
+}
+.s-left h2{
+	font-size: 45px;
+	margin: 0;
+	color: #f15767;
+}
+.s-left p{
+	font-size: 16px;
+	line-height: 22px;
+}
+.s-right{
+	width: 46%;
+	float: right;
+	font-family: sans-serif;
+}
+.s-right h2{
+	font-size: 45px;
+	line-height: 55px;
+	margin: 0;
+	color: #0f2656;
+}
+/*Success CSS End*/
+
+/*Feature CSS Start*/
+.feature-section{}
+.feature{}
+.f-content{
+	width: 24%;
+	float: left;
+	margin: 0 50px 0 0;
+	padding: 10px 40px 40px 40px;
+}
+.f-img{}
+.f-img img{
+	width: 100%;
+}
+.f-content h2{
+	font-size: 25px;
+	font-weight: 700;
+	color: #0f2656;
+}
+.f-content p{
+	font-size: 16px;
+	line-height: 22px;
+}
+.f-content:last-child{
+	margin-right: 0;
+}
+.f-bg1{
+	background-color: #fdebed;
+}.f-bg2{
+	background-color: #ebf9f4;
+}.f-bg3{
+	background-color: #fff7e8;
+}
+/*Feature CSS End*/
+
+/*Footer CSS Start*/
+.footer-section{
+	background-color: #008aff;
+}
+.footer p{
+	padding: 10px 0;
+	font-size: 12px;
+	text-align: center;
+	color: #ffffffa6;
+}
+.footer p span{
+	letter-spacing: 3px;
+	color: #fff;
+	font-weight: 700;
+}
+/*Footer CSS End*/
